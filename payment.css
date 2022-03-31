@@ -49,9 +49,7 @@ footer p {
 	height: 20%;
 	margin: 2% auto;
 }
-.customer-info {
-	margin: 2%;
-}
+
 .tarrif-details {
 	display: flex;
 	justify-content: space-around;
