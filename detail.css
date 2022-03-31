@@ -4,8 +4,21 @@ html, body {
 }
 body {
 	margin: 0;
+	background-color: #e0e0e0;
+}
+header {
+	background-color: rosybrown;
+}
+footer {
+	background-color: rosybrown;
 }
 
+form {
+	margin-bottom: 1%;
+}
+.main {
+	margin: 2% 4% 2% 4%;
+}
 .main img {
 	height: 500px;
 	width: 500px;

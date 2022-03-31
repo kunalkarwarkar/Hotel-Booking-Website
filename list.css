@@ -4,11 +4,23 @@ html, body {
 }
 body {
 	margin: 0;
+	background-color: #e0e0e0;
+}
+header {
+	background-color: rosybrown;
+}
+footer {
+	background-color: rosybrown;
 }
 
 .main-wrapper {
 	width: 100%;
 	height: 100%;
+}
+.hotel-list-item {
+	margin: 2%;
+	background-color: rgb(132, 136, 139);
+	max-width: 40%;
 }
 .hotel-list-item img {
 	width: 250px;

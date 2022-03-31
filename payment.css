@@ -4,8 +4,30 @@ html, body {
 }
 body {
 	margin: 0;
+	background-color: #e0e0e0;
+}
+header {
+	background-color: rosybrown;
+}
+footer {
+	background-color: rosybrown;
 }
 
+.content {
+	background-color: rgb(132, 136, 139);
+	width: 50%;
+	height: 20%;
+	margin: 2% auto;
+}
+.customer-info {
+	margin: 2%;
+}
+.tarrif-details {
+	margin: 2%;
+	border: 1px solid black;
+	padding: 1% 2%;
+	border-radius: 5px;
+}
 .main img {
 	width: 500px;
 	height: 500px;
