@@ -21,8 +21,8 @@ header {
 	width: 100%;
 	top: 0;
 }
-header a {
-	margin-right: 1%;
+header img {
+	margin-left: 1%;
 }
 footer {
 	background-color: rosybrown;
@@ -33,29 +33,63 @@ footer {
 	position: fixed;
 	width: 100%;
 	bottom: 0;
+	padding: 0 2%;
 }
 footer p {
 	align-self: flex-end;
 }
 
-form {
-	margin-bottom: 1%;
-}
+/* Making white spaces around the main content */
 .main {
 	margin: 2% 4% 2% 4%;
 	padding: 60px 0;
 }
+
+/* Since header and footer are fixed content shouldn't be covered by them */
 .main {
 	padding: 60px 0;
 }
 .main img {
-	height: 500px;
-	width: 500px;
+	height: 350px;
 }
 .main-wrapper {
 	width: 100%;
 	height: 100%;
 }
+
+/* Form layout */
+.form-item {
+	margin: 4% 8%;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Preparing the container div for the carousel and form part */
+.payment-form {
+	border: 1px solid black;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* To center the carousel and the form */
+.payment-form > div {
+	text-align: center;
+}
+form {
+	padding: 0 8%;
+}
+.form-item {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+/* Giving the input fields a width */
+.input {
+	width: 60%;
+}
+
+/* Social icons present in the footer */
 .socials a {
 	display: inline;
 }

@@ -21,8 +21,12 @@ header {
 	width: 100%;
 	top: 0;
 }
+header img {
+	margin-left: 1%;
+}
 header a {
 	margin-right: 1%;
+	margin-right: 2%;
 }
 footer {
 	background-color: rosybrown;
@@ -36,6 +40,7 @@ footer {
 }
 footer p {
 	align-self: flex-end;
+	padding: 0 2%;
 }
 
 .main-wrapper {
@@ -56,17 +61,28 @@ footer p {
 }
 .hotel-list {
 	display: flex;
+	justify-content: space-between;
 	flex-wrap: wrap;
+}
+.description {
+	margin-left: 2%;
 }
 .hotel-list-item {
 	flex: 1 0 45%;
+	display: flex;
+	flex: 1 0 40%;
 	margin: 2%;
 	background-color: rgb(132, 136, 139);
+	background-color: lightgrey;
 	max-width: 40%;
 }
 .hotel-list-item img {
 	width: 250px;
 	height: 25-px;
+	height: 250px;
+}
+.socials {
+	margin-right: 3%;
 }
 .socials a {
 	display: inline;

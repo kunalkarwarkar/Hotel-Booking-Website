@@ -3,49 +3,55 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <title>Detail</title>
         <link rel="stylesheet" href="styles/detail.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap">
     </head>
     <body>
-
         <div class="main-wrapper">
             
             <header>
                 <a href="index.html"><img style="height: 60px;" src="assests/images/logo.png" alt="The Hotel Logo"></a>
                 <a href="login.html">Login</a>
             </header>
+
             <div class="main">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Raddison Blu Hotel"><br>
-                
-                <form action="payment.html" method="get">
-                    <div class="form-item">
-                        <label for="adults">Adults:</label>
-                        <input type="number" id="adults" name="adults" min="1" required>
+                <div class="payment-form">
+                    <div style="width:70%;">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Raddison Blu Hotel">
                     </div>
-                    <div class="form-item">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
+                    <hr style="height: 400px; border: 1px solid black">
+                    <div style="border-left: transparent; width:30%">
+                        <form action="payment.html" method="get">
+                            <div class="form-item">
+                                <label for="adults">Adults:</label>
+                                <input class="input" type="number" id="adults" name="adults" min="1" required>
+                            </div>
+                            <div class="form-item">
+                                <label for="name">Name:</label>
+                                <input class="input" type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-item">
+                                <label for="from">From Date:</label>
+                                <input class="input" type="date" id="from" name="from" required>
+                            </div>
+                            <div class="form-item">
+                                <label for="to">To Date:</label>
+                                <input class="input" type="date" id="to" name="to" required>
+                            </div>
+                            <div class="form-item">
+                                <label for="total">Total:</label>
+                                <input class="input" type="text" id="total" name="total" readonly>
+                            </div>
+                            <input type="submit" value="Book Now" style="padding:8px 6px">
+                        </form>
                     </div>
-                    <div class="form-item">
-                        <label for="from">From Date:</label>
-                        <input type="date" id="from" name="from" required>
-                    </div>
-                    <div class="form-item">
-                        <label for="to">To Date:</label>
-                        <input type="date" id="to" name="to" required>
-                    </div>
-                    <div class="form-item">
-                        <label for="total">Total:</label>
-                        <input type="text" id="total" name="total" readonly>
-                    </div>
-                    <input type="submit" value="Book Now">
-                </form>
+                </div>
+
                 <h2>Radisson Blu Hotel</h2>
-                <p>RATING</p>
+                <h4 style="font-family: cursive;">RATING</h4>
                 <p>5 Star</p>
-                <p>Ameneties</p>
+                <h4 style="font-family: cursive;">Ameneties</h4>
                 <ul>
                     <li>Room Service</li>
                     <li>Restaurant</li>
@@ -53,10 +59,10 @@
                     <li>Fitness Centre</li>
                     <li>Pool</li>
                 </ul>
-                <h5>DESCRIPTION</h5>
+                <h4 style="font-family: cursive;">DESCRIPTION</h4>
                 <p>And some dummy text for now. So, you can add any text in description for now. So, this is just a dummy text. So, and then there is a footer div which is same as that of the initial two pages!</p>
-            </div>
 
+            </div>
             <footer>
                 <a href="contact.html">Contact Us</a>
                 <p style="font-size: 10px;">© 2020 ROOM SEARCH PVT. LTD.</p>
@@ -65,11 +71,7 @@
                     <a href="https://www.instagram.com/"><img src="assests/images/instagram.png" alt="Instagram Logo"></a>
                     <a href="https://twitter.com/"><img src="assests/images/twitter.png" alt="Twitter Logo"></a>
                 </div>
-                <p>© 2020 ROOM SEARCH PVT. LTD.</p>
             </footer>
-
         </div>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
